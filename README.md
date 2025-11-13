@@ -30,5 +30,5 @@ This project is designed to be **industry-oriented**, **fully runnable**, and **
 | Data | **Sample resumes + job JSON** | Synthetic dataset for testing |
 
 ---
-## 📁 Folder Structure  
+
 
