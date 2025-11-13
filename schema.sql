@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS jobs(id TEXT PRIMARY KEY, title TEXT, jd_text TEXT, must_have TEXT, nice_to_have TEXT, min_exp_years REAL, location TEXT, created_at TEXT);
+CREATE TABLE IF NOT EXISTS resumes(candidate_id TEXT PRIMARY KEY, source TEXT, raw_text TEXT, parsed_json TEXT, updated_at TEXT);
+CREATE TABLE IF NOT EXISTS rankings(job_id TEXT, candidate_id TEXT, score REAL, reasons TEXT, created_at TEXT, PRIMARY KEY(job_id, candidate_id));
